@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+th{
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid green;
+    background-color: violet;
+}
+td{
+    padding: 8px;
+    border: 1px solid red;
+}
+tbody tr:nth-child(odd){
+    background-color: orange;
+}
+tbody tr:nth-child(even){
+    background-color: burlywood;
+}
